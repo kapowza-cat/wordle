@@ -5,7 +5,6 @@ words = top_n_list("en", 100000)  # up to a hundred thousand most common words
 words = [word for word in words if len(word) == 5]
 
 #print("Number of 5-letter words:", len(words))
-
 #pick random word from the list
 import random
 word = random.choice(words)
