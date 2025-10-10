@@ -1,6 +1,6 @@
 from wordfreq import top_n_list
-words = top_n_list("en", 100000)  # up to a hundred thousand most common words
-
+words = top_n_list("en", 10000)  # up to a hundred thousand most common words
+#testing, testing, 123
 # filter out words that are not 5 letters long
 words = [word for word in words if len(word) == 5]
 
